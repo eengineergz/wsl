@@ -1,0 +1,892 @@
+[Info  - 3:19:18 PM] BashLanguageServer initializing...
+Analyzing files matching glob "**/*@(.sh|.inc|.bash|.command)" inside /home/bryan/keep-unsorted
+Glob resolved with 1 files after 0.194 seconds
+Analyzing file:///home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+Analyzer finished after 0.245 seconds
+[Info  - 3:19:29 PM] BashLanguageServer initialized
+onDocumentSymbol
+onHover 4:7 word="for"
+onHover 4:6 word="for"
+onDocumentHighlight 4:6 word="for"
+onDocumentHighlight 4:6 word="for"
+onHover 4:6 word="for"
+onDocumentSymbol
+onDocumentHighlight 5:2 word="for"
+onHover 7:0 word="done"
+onHover 7:4 word="}"
+onDocumentHighlight 7:4 word="}"
+onDocumentHighlight 7:4 word="}"
+onHover 7:4 word="}"
+onDocumentSymbol
+onDocumentHighlight 8:0 word="}"
+onDocumentHighlight 8:1 word=")"
+onHover 8:2 word=";"
+onDocumentSymbol
+onDocumentHighlight 9:0 word=")"
+onHover 9:1 word=";"
+onDocumentHighlight 9:1 word=";"
+onDocumentHighlight 9:2 word=null
+onHover 9:1 word=";"
+onHover 9:2 word=null
+onDocumentSymbol
+onDocumentHighlight 10:0 word=null
+onDocumentHighlight 1:0 word=null
+onDocumentSymbol
+onDocumentHighlight 1:1 word=null
+onDocumentHighlight 9:2 word=null
+onDocumentHighlight 4:6 word=null
+onDocumentHighlight 4:5 word="{"
+onDocumentHighlight 4:3 word="("
+onDocumentHighlight 4:2 word="cmd"
+onDocumentHighlight 4:1 word="cmd"
+onDocumentHighlight 4:0 word="cmd"
+onDocumentSymbol
+onDocumentHighlight 4:0 word=null
+onHover 9:1 word=";"
+onDocumentHighlight 9:1 word=";"
+onDocumentHighlight 9:0 word=")"
+onDocumentSymbol
+onDocumentHighlight 9:0 word=";"
+onDocumentSymbol
+onDocumentHighlight 7:4 word=null
+onDocumentHighlight 7:4 word=null
+onHover 3:2 word="for"
+onDocumentHighlight 13:0 word=null
+onDocumentHighlight 10:5 word=null
+onDocumentHighlight 9:0 word=null
+onDocumentHighlight 6:19 word=null
+onDocumentHighlight 4:0 word=null
+onDocumentHighlight 2:0 word=null
+onDocumentHighlight 0:0 word=null
+onDocumentSymbol
+onDocumentHighlight 0:0 word=null
+onDocumentSymbol
+onDocumentHighlight 0:48 word=null
+onDocumentSymbol
+onDocumentHighlight 0:1 word="find"
+onDocumentHighlight 0:1 word="find"
+onDocumentHighlight 0:0 word="find"
+onDocumentSymbol
+onDocumentHighlight 1:0 word="find"
+onDocumentHighlight 0:0 word=null
+onDocumentSymbol
+onDocumentHighlight 0:12 word=null
+onHover 0:3 word="#!/bin/bash"
+onDocumentHighlight 2:0 word=null
+onHover 1:16 word="-type"
+onHover 1:13 word=null
+onHover 1:4 word=null
+onDocumentHighlight 1:5 word="some/dir"
+onDocumentHighlight 1:5 word="some/dir"
+onDocumentHighlight 1:5 word="some/dir"
+onDocumentHighlight 1:5 word="some/dir"
+onDocumentHighlight 1:5 word="some/dir"
+onDocumentHighlight 1:5 word="some/dir"
+onDocumentHighlight 1:5 word="some/dir"
+onDocumentHighlight 1:5 word="some/dir"
+onDocumentHighlight 1:5 word="some/dir"
+onDocumentHighlight 1:5 word="some/dir"
+onHover 1:13 word=null
+onHover 1:12 word="some/dir"
+onDocumentSymbol
+onDocumentHighlight 1:6 word=null
+onDocumentSymbol
+onDocumentHighlight 1:7 word=null
+onDocumentHighlight 2:0 word=null
+onHover 1:35 word="somecommand"
+onHover 1:35 word="somecommand"
+onHover 1:24 word=null
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:36 word=null
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onDocumentHighlight 1:25 word="somecommand"
+onHover 1:36 word=null
+onDocumentSymbol
+onDocumentHighlight 1:25 word=null
+onHover 1:26 word="{}"
+onHover 1:24 word=null
+onDocumentSymbol
+onDocumentHighlight 1:63 word=null
+onHover 1:36 word=";"
+onHover 1:34 word="*"
+onHover 1:34 word="*"
+onHover 1:57 word=null
+onHover 1:58 word="""
+onHover 1:59 word="done"
+onHover 1:58 word="""
+onDocumentHighlight 1:58 word="""
+onDocumentHighlight 1:58 word="""
+onDocumentHighlight 1:59 word="done"
+onDocumentHighlight 1:59 word="done"
+onHover 1:58 word="""
+onDocumentSymbol
+onDocumentHighlight 1:60 word="done"
+onDocumentHighlight 1:70 word=null
+onDocumentHighlight 2:0 word=null
+onHover 1:39 word="do"
+onDocumentHighlight 1:40 word=null
+onDocumentHighlight 1:40 word=null
+onDocumentHighlight 1:39 word="do"
+onDocumentHighlight 1:38 word="do"
+onDocumentHighlight 1:37 word=null
+onDocumentHighlight 1:38 word="do"
+onDocumentHighlight 1:38 word="do"
+onDocumentHighlight 1:37 word=null
+onDocumentHighlight 1:38 word="do"
+onDocumentHighlight 1:38 word="do"
+onHover 1:37 word=null
+onHover 1:37 word=null
+onDocumentSymbol
+onDocumentHighlight 1:38 word=null
+onHover 1:37 word=null
+onDocumentHighlight 1:37 word=null
+onDocumentHighlight 1:36 word=";"
+onDocumentSymbol
+onDocumentHighlight 1:36 word=null
+onHover 1:34 word="*"
+onHover 1:35 word=null
+onHover 1:38 word=null
+onHover 1:35 word=null
+onHover 1:35 word=null
+onDocumentHighlight 1:35 word=null
+onHover 1:34 word="*"
+onHover 1:35 word=null
+onHover 1:33 word=null
+onHover 1:34 word="*"
+onDocumentHighlight 2:0 word=null
+onDocumentSymbol
+onDocumentHighlight 4:4 word=null
+onHover 2:12 word=null
+onDocumentSymbol
+onHover 3:16 word=null
+onDocumentHighlight 3:17 word="""
+onDocumentHighlight 3:17 word="""
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentSymbol
+onDocumentHighlight 4:4 word=null
+onDocumentSymbol
+onHover 3:16 word=null
+onDocumentHighlight 3:17 word="""
+onDocumentHighlight 3:17 word="""
+onDocumentSymbol
+onDocumentHighlight 3:16 word="""
+onDocumentSymbol
+onDocumentHighlight 3:15 word="""
+onDocumentSymbol
+onDocumentHighlight 3:14 word="""
+onDocumentSymbol
+onDocumentHighlight 3:15 word="""
+onDocumentSymbol
+onDocumentHighlight 3:16 word="""
+onDocumentSymbol
+onDocumentHighlight 3:17 word="""
+onDocumentSymbol
+onDocumentHighlight 3:18 word="""
+onDocumentHighlight 4:4 word=null
+onDocumentHighlight 4:4 word=null
+onDocumentHighlight 3:6 word="$"
+onDocumentHighlight 3:5 word="""
+onDocumentHighlight 3:3 word="mv"
+onDocumentHighlight 3:1 word=null
+onDocumentHighlight 3:0 word=null
+onDocumentHighlight 2:0 word="for"
+onDocumentHighlight 2:0 word="for"
+onDocumentHighlight 5:0 word=null
+onDocumentSymbol
+onDocumentHighlight 5:54 word=null
+onDocumentSymbol
+onHover 5:29 word="'s/string1/string2/g'"
+onHover 5:28 word="'s/string1/string2/g'"
+onHover 5:28 word="'s/string1/string2/g'"
+onHover 5:28 word="'s/string1/string2/g'"
+onHover 5:29 word="'s/string1/string2/g'"
+onHover 5:30 word="'s/string1/string2/g'"
+onHover 5:31 word="'s/string1/string2/g'"
+onHover 5:30 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 6:0 word=null
+onHover 5:30 word="'s/string1/string2/g'"
+onHover 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:32 word="'s/string1/string2/g'"
+onDocumentHighlight 5:32 word="'s/string1/string2/g'"
+onHover 5:32 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:38 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onDocumentHighlight 5:31 word="'s/string1/string2/g'"
+onHover 5:37 word="'s/string1/string2/g'"
+onDocumentSymbol
+onDocumentHighlight 5:32 word="'s/h/string2/g'"
+onDocumentSymbol
+onDocumentHighlight 5:33 word="'s/ht/string2/g'"
+onDocumentSymbol
+onDocumentHighlight 5:34 word="'s/htm/string2/g'"
+onDocumentSymbol
+onDocumentHighlight 5:35 word="'s/html/string2/g'"
+onDocumentHighlight 6:0 word=null
+onHover 5:41 word="'s/html/string2/g'"
+onHover 5:42 word="'s/html/string2/g'"
+onDocumentHighlight 5:43 word="'s/html/string2/g'"
+onDocumentHighlight 5:43 word="'s/html/string2/g'"
+onDocumentHighlight 5:42 word="'s/html/string2/g'"
+onDocumentHighlight 5:41 word="'s/html/string2/g'"
+onDocumentHighlight 5:40 word="'s/html/string2/g'"
+onDocumentHighlight 5:39 word="'s/html/string2/g'"
+onDocumentHighlight 4:4 word=null
+onDocumentHighlight 5:37 word="'s/html/string2/g'"
+onDocumentHighlight 5:37 word="'s/html/string2/g'"
+onDocumentHighlight 5:36 word="'s/html/string2/g'"
+onHover 5:35 word="'s/html/string2/g'"
+onHover 5:35 word="'s/html/string2/g'"
+onDocumentSymbol
+onDocumentHighlight 5:36 word="'s/html//g'"
+onDocumentHighlight 5:44 word=null
+onDocumentHighlight 4:4 word=null
+onDocumentHighlight 5:32 word="'s/html//g'"
+onDocumentHighlight 5:30 word="'s/html//g'"
+onDocumentHighlight 5:28 word="'s/html//g'"
+onDocumentHighlight 5:26 word="rename"
+onDocumentHighlight 5:24 word="rename"
+onDocumentHighlight 5:23 word="rename"
+onDocumentHighlight 5:22 word="rename"
+onDocumentHighlight 5:44 word=null
+onDocumentHighlight 5:1 word="find"
+onDocumentHighlight 5:0 word="find"
+onDocumentSymbol
+onDocumentHighlight 5:0 word="find"
+onDocumentHighlight 6:0 word=null
+onDocumentHighlight 5:44 word=null
+onDocumentHighlight 5:42 word=null
+onDocumentHighlight 5:41 word="{}"
+onDocumentHighlight 4:4 word=null
+onDocumentHighlight 4:4 word=null
+onDocumentHighlight 3:7 word="f"
+onDocumentHighlight 3:5 word="""
+onDocumentHighlight 3:4 word=null
+onDocumentHighlight 3:3 word="mv"
+onDocumentHighlight 3:2 word="mv"
+onDocumentHighlight 3:1 word=null
+onDocumentHighlight 2:1 word="for"
+onDocumentHighlight 2:0 word="for"
+onDocumentHighlight 6:0 word=null
+onDocumentHighlight 6:0 word=null
+onHover 2:4 word="f"
+onDocumentHighlight 5:44 word=null
+onDocumentHighlight 5:43 word="+"
+onDocumentHighlight 4:4 word=null
+onDocumentHighlight 4:4 word=null
+onDocumentSymbol
+onDocumentHighlight 5:0 word=null
+onDocumentSymbol
+onDocumentHighlight 6:0 word=null
+onHover 2:9 word="*"
+onHover 2:8 word=null
+onHover 2:7 word="in"
+onDocumentHighlight 4:4 word=null
+onDocumentHighlight 4:4 word=null
+onDocumentHighlight 3:4 word=null
+onDocumentHighlight 3:3 word="mv"
+onDocumentHighlight 3:2 word="mv"
+onDocumentHighlight 3:1 word=null
+onDocumentHighlight 3:0 word=null
+onDocumentHighlight 2:0 word="for"
+onHover 1:2 word="find"
+onDocumentHighlight 8:0 word=null
+onHover 2:3 word=null
+onHover 2:3 word=null
+onDocumentHighlight 2:3 word=null
+onDocumentHighlight 2:3 word=null
+onDocumentHighlight 2:2 word="for"
+onDocumentHighlight 2:1 word="for"
+onDocumentHighlight 2:0 word="for"
+onDocumentHighlight 8:0 word=null
+onHover 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 6:0 word=null
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onDocumentHighlight 7:0 word="find"
+onHover 7:20 word=null
+onDefinition 7:20 word=null
+onHover 7:20 word=null
+onDefinition 7:20 word=null
+onDocumentHighlight 2:16 word=null
+onDocumentHighlight 2:15 word=null
+onDocumentHighlight 2:14 word="do"
+onDocumentHighlight 2:13 word="do"
+onDocumentHighlight 2:12 word=null
+onDocumentHighlight 2:10 word=null
+onDocumentHighlight 2:9 word="*"
+onDocumentHighlight 2:8 word=null
+onDocumentHighlight 2:7 word="in"
+onDocumentHighlight 2:6 word="in"
+onDocumentHighlight 2:5 word=null
+onDocumentHighlight 2:4 word="f"
+onDocumentHighlight 2:3 word=null
+onDocumentHighlight 2:2 word="for"
+onDocumentHighlight 2:1 word="for"
+onDocumentHighlight 2:0 word="for"
+onHover 7:34 word="'s/html//g'"
+onDocumentSymbol
+onDocumentHighlight 2:0 word=null
+onDocumentSymbol
+onDocumentHighlight 2:20 word=null
+onDocumentHighlight 3:19 word=null
+onDocumentHighlight 3:18 word="""
+onDocumentHighlight 3:16 word=null
+onDocumentHighlight 3:14 word=null
+onDocumentHighlight 3:13 word=null
+onDocumentHighlight 3:12 word="f"
+onDocumentHighlight 3:19 word=null
+onDocumentHighlight 3:8 word="""
+onDocumentHighlight 3:7 word="f"
+onDocumentHighlight 3:6 word="$"
+onDocumentHighlight 3:5 word="""
+onDocumentHighlight 3:4 word=null
+onDocumentHighlight 3:3 word="mv"
+onDocumentHighlight 3:2 word="mv"
+onDocumentHighlight 3:0 word=null
+onDocumentHighlight 3:1 word=null
+onDocumentHighlight 3:2 word="mv"
+onDefinition 3:2 word="mv"
+onHover 3:0 word=null
+onHover 3:0 word=null
+onDocumentSymbol
+onDocumentHighlight 3:2 word=null
+onDocumentHighlight 2:20 word=null
+onDocumentHighlight 2:20 word=null
+onDocumentSymbol
+onDocumentHighlight 2:21 word=null
+onDocumentSymbol
+onDocumentHighlight 2:38 word=null
+onHover 2:31 word="f"
+onDocumentHighlight 5:0 word=null
+onDocumentHighlight 4:4 word=null
+onDocumentHighlight 4:3 word="done"
+onDocumentHighlight 4:1 word="done"
+onDocumentHighlight 4:0 word="done"
+onDocumentSymbol
+onDocumentHighlight 4:0 word=null
+onHover 6:39 word=null
+onHover 6:39 word=null
+onHover 6:31 word="'s/html//g'"
+onHover 6:28 word="'s/html//g'"
+onHover 2:23 word=null
+onDocumentHighlight 2:24 word="""
+onDocumentSymbol
+onDocumentHighlight 2:25 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:26 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:27 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:27 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:28 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:29 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:30 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:31 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:32 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:32 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:33 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:34 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:34 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:35 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:36 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:37 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:38 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentHighlight 2:39 word="'"$f" "$f.html"
+  
+
+
+find . -type f -exec rename '"
+onDocumentSymbol
+onDocumentHighlight 2:40 word=null
+onCompletion 2:41 word=null
+onDocumentSymbol
+onDocumentHighlight 2:41 word=null
+onDocumentSymbol
+onDocumentHighlight 2:42 word=null
+onCompletionResolve name=} type=2
+onDocumentSymbol
+onDocumentHighlight 2:43 word=null
+onDocumentSymbol
+onDocumentHighlight 2:44 word=null
+onDocumentHighlight 2:43 word="+"
+onDocumentHighlight 2:41 word=null
+onDocumentHighlight 2:39 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:38 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:36 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:34 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:44 word=null
+onDocumentHighlight 2:5 word="."
+onDocumentHighlight 2:4 word=null
+onDocumentHighlight 2:2 word="find"
+onDocumentHighlight 2:0 word="find"
+onDefinition 6:3 word="find"
+onDocumentHighlight 7:0 word=null
+onHover 6:18 word="-exec"
+onHover 6:19 word="-exec"
+onHover 6:21 word="rename"
+onHover 6:20 word=null
+onHover 6:20 word=null
+onHover 6:20 word=null
+onHover 6:18 word="-exec"
+onHover 6:21 word="rename"
+onHover 6:20 word=null
+onHover 6:20 word=null
+onHover 6:20 word=null
+onDocumentHighlight 6:20 word=null
+onDocumentHighlight 6:20 word=null
+onDocumentHighlight 6:19 word="-exec"
+onDocumentHighlight 6:18 word="-exec"
+onDocumentHighlight 6:17 word="-exec"
+onDocumentHighlight 6:16 word="-exec"
+onDocumentHighlight 6:15 word="-exec"
+onHover 6:15 word="-exec"
+onHover 6:15 word="-exec"
+onDocumentHighlight 4:0 word=null
+onHover 2:20 word=null
+onDocumentHighlight 2:20 word=null
+onDocumentHighlight 2:20 word=null
+onDocumentHighlight 2:19 word="-exec"
+onDocumentHighlight 2:18 word="-exec"
+onDocumentHighlight 2:17 word="-exec"
+onDocumentHighlight 2:16 word="-exec"
+onDocumentHighlight 2:15 word="-exec"
+onDocumentHighlight 2:14 word=null
+onDocumentHighlight 2:13 word="f"
+onDocumentHighlight 2:14 word=null
+onDocumentHighlight 2:15 word="-exec"
+onDocumentHighlight 2:16 word="-exec"
+onDocumentHighlight 2:16 word="-exec"
+onDocumentHighlight 2:15 word="-exec"
+onHover 2:14 word=null
+onDocumentSymbol
+onDocumentHighlight 2:15 word=null
+onDocumentHighlight 2:39 word=null
+onDocumentHighlight 2:38 word="+"
+onDocumentHighlight 2:37 word=null
+onDocumentHighlight 2:36 word=null
+onDocumentHighlight 2:34 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:32 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:30 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:28 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:26 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:24 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:23 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:22 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:21 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:20 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:19 word="'"$f" "$f.html"'"
+onDocumentHighlight 1:18 word="-execdir"
+onDocumentHighlight 1:15 word=null
+onDocumentHighlight 1:14 word="f"
+onDocumentHighlight 1:12 word="-type"
+onDocumentHighlight 1:11 word="-type"
+onDocumentHighlight 1:10 word="-type"
+onDocumentHighlight 1:9 word="-type"
+onDocumentHighlight 1:8 word="-type"
+onDocumentHighlight 1:6 word="./"
+onDocumentHighlight 1:5 word="./"
+onDocumentHighlight 1:4 word=null
+onDocumentHighlight 1:3 word="find"
+onDocumentHighlight 1:2 word="find"
+onDocumentHighlight 1:1 word="find"
+onDocumentHighlight 2:0 word="find"
+onDefinition 6:1 word="find"
+onDocumentHighlight 4:0 word=null
+onHover 2:14 word=null
+onDocumentHighlight 2:15 word=null
+onHover 2:15 word=null
+onHover 2:17 word="mv"
+onHover 1:21 word="-execdir"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:19 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 6:38 word="'s/html//g'"
+onHover 6:37 word="'s/html//g'"
+onHover 6:37 word="'s/html//g'"
+onHover 6:36 word="'s/html//g'"
+onHover 6:35 word="'s/html//g'"
+onHover 6:35 word="'s/html//g'"
+onHover 6:34 word="'s/html//g'"
+onHover 6:34 word="'s/html//g'"
+onDocumentHighlight 6:35 word="'s/html//g'"
+onDocumentHighlight 6:35 word="'s/html//g'"
+onDocumentHighlight 6:34 word="'s/html//g'"
+onDocumentHighlight 6:33 word="'s/html//g'"
+onDocumentHighlight 6:32 word="'s/html//g'"
+onDocumentHighlight 6:31 word="'s/html//g'"
+onDocumentHighlight 4:0 word=null
+onHover 2:22 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:20 word="'"$f" "$f.html"'"
+onHover 2:19 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:20 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:20 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:20 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:20 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:20 word="'"$f" "$f.html"'"
+onHover 2:24 word="'"$f" "$f.html"'"
+onHover 2:24 word="'"$f" "$f.html"'"
+onHover 6:30 word="'s/html//g'"
+onHover 6:35 word="'s/html//g'"
+onDocumentHighlight 6:35 word="'s/html//g'"
+onDocumentHighlight 6:35 word="'s/html//g'"
+onDocumentHighlight 6:34 word="'s/html//g'"
+onDocumentHighlight 6:33 word="'s/html//g'"
+onDocumentHighlight 6:32 word="'s/html//g'"
+onDocumentHighlight 6:31 word="'s/html//g'"
+onDefinition 6:31 word="'s/html//g'"
+onDocumentSymbol
+onDocumentHighlight 6:35 word="'s/"$f"//g'"
+onHover 2:24 word="'"$f" "$f.html"'"
+onHover 2:25 word="'"$f" "$f.html"'"
+onHover 2:25 word="'"$f" "$f.html"'"
+onHover 2:25 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:25 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:25 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:25 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:25 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:25 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:25 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:25 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:25 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:25 word="'"$f" "$f.html"'"
+onDocumentHighlight 2:25 word="'"$f" "$f.html"'"
+onHover 2:33 word="'"$f" "$f.html"'"
+onHover 6:36 word="'s/"$f"//g'"
+onHover 6:36 word="'s/"$f"//g'"
+onDocumentHighlight 6:36 word="'s/"$f"//g'"
+onDefinition 6:37 word="'s/"$f"//g'"
+onDocumentSymbol
+onDocumentHighlight 6:45 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:53 word=null
+onDocumentHighlight 6:52 word="+"
+onDocumentHighlight 6:51 word=null
+onDocumentHighlight 6:50 word="{}"
+onDocumentHighlight 6:49 word="{}"
+onDocumentHighlight 6:48 word=null
+onDocumentHighlight 6:46 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 5:0 word=null
+onDocumentHighlight 4:0 word=null
+onDocumentHighlight 5:0 word=null
+onDocumentHighlight 6:0 word="find"
+onDefinition 6:0 word="find"
+onDocumentHighlight 7:0 word=null
+onHover 6:19 word="-exec"
+onHover 6:21 word="rename"
+onHover 6:19 word="-exec"
+onDocumentHighlight 6:20 word=null
+onDocumentHighlight 6:20 word=null
+onDocumentHighlight 6:19 word="-exec"
+onDocumentHighlight 6:18 word="-exec"
+onDocumentHighlight 6:17 word="-exec"
+onDocumentHighlight 6:16 word="-exec"
+onDocumentHighlight 6:15 word="-exec"
+onHover 6:15 word="-exec"
+onDocumentSymbol
+onDocumentHighlight 6:15 word=null
+onHover 6:24 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 5:0 word=null
+onHover 6:23 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:24 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:24 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:24 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:0 word="find"
+onDefinition 6:24 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 7:0 word=null
+onHover 6:26 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:16 word="rename"
+onDocumentHighlight 6:16 word="rename"
+onDocumentSymbol
+onDocumentHighlight 6:17 word="-rename"
+onDocumentSymbol
+onDocumentHighlight 6:18 word="-erename"
+onDocumentSymbol
+onDocumentHighlight 6:19 word="-exrename"
+onDocumentSymbol
+onDocumentHighlight 6:20 word="-exerename"
+onDocumentSymbol
+onDocumentHighlight 6:21 word="-execrename"
+onDocumentSymbol
+onDocumentHighlight 6:22 word="rename"
+onDocumentHighlight 6:54 word=null
+onDocumentHighlight 6:51 word="{}"
+onDocumentHighlight 6:47 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:45 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:44 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:42 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:39 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:36 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:32 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:30 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:28 word=null
+onDocumentHighlight 6:26 word="rename"
+onDocumentHighlight 6:25 word="rename"
+onDocumentHighlight 5:0 word=null
+onDocumentHighlight 6:6 word=null
+onDocumentHighlight 6:54 word=null
+onDocumentHighlight 6:5 word="."
+onDocumentHighlight 6:1 word="find"
+onDocumentHighlight 6:0 word="find"
+onDocumentHighlight 7:0 word=null
+onHover 6:6 word=null
+onDocumentHighlight 6:6 word=null
+onDocumentSymbol
+onDocumentHighlight 6:7 word=null
+onDocumentHighlight 7:0 word=null
+onDocumentHighlight 5:0 word=null
+onHover 6:19 word="-exec"
+onDocumentHighlight 6:20 word="-exec"
+onDocumentHighlight 6:20 word="-exec"
+onDocumentHighlight 6:18 word="-exec"
+onDocumentHighlight 6:0 word="find"
+onDefinition 6:20 word="-exec"
+onDocumentHighlight 7:0 word=null
+onHover 6:7 word=null
+onHover 6:20 word="-exec"
+onHover 6:27 word="rename"
+onHover 6:26 word="rename"
+onHover 6:29 word=null
+onHover 6:22 word=null
+onDocumentHighlight 6:22 word=null
+onDocumentHighlight 6:22 word=null
+onDocumentHighlight 6:21 word="-exec"
+onDocumentHighlight 6:20 word="-exec"
+onDocumentHighlight 6:19 word="-exec"
+onDocumentHighlight 6:18 word="-exec"
+onDocumentHighlight 6:17 word="-exec"
+onHover 6:17 word="-exec"
+onHover 6:16 word=null
+onDocumentSymbol
+onDocumentHighlight 6:17 word=null
+onDocumentHighlight 6:50 word=null
+onDocumentHighlight 6:47 word="{}"
+onDocumentHighlight 5:0 word=null
+onDocumentHighlight 6:3 word="find"
+onDocumentHighlight 6:2 word="find"
+onDocumentHighlight 6:0 word="find"
+onDocumentHighlight 7:0 word=null
+onHover 6:15 word=null
+onHover 6:16 word=null
+onHover 6:34 word="'s/"$f"/"$f.html"/g'"
+onHover 6:32 word="'s/"$f"/"$f.html"/g'"
+onHover 6:30 word="'s/"$f"/"$f.html"/g'"
+onHover 6:31 word="'s/"$f"/"$f.html"/g'"
+onHover 6:31 word="'s/"$f"/"$f.html"/g'"
+onHover 6:31 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:31 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:31 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:30 word="'s/"$f"/"$f.html"/g'"
+onHover 6:27 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:28 word="'s/"$f"/"$f.html"/g'"
+onHover 6:28 word="'s/"$f"/"$f.html"/g'"
+onDocumentHighlight 6:29 word="'s/"$f"/"$f.html"/g'"
+onDocumentSymbol
+onDocumentHighlight 6:30 word="'s/"*$f"/"$f.html"/g'"
+onHover 6:35 word="'s/"*$f"/"$f.html"/g'"
+onHover 6:36 word="'s/"*$f"/"$f.html"/g'"
+onDocumentHighlight 6:36 word="'s/"*$f"/"$f.html"/g'"
+onDocumentHighlight 6:36 word="'s/"*$f"/"$f.html"/g'"
+onDocumentHighlight 6:35 word="'s/"*$f"/"$f.html"/g'"
+onDocumentSymbol
+onDocumentHighlight 6:36 word="'s/"*$f"/"*$f.html"/g'"
+onDocumentHighlight 6:32 word="'s/"*$f"/"*$f.html"/g'"
+onDocumentHighlight 6:0 word="find"
+onHover 6:27 word="'s/"*$f"/"*$f.html"/g'"
+onDocumentHighlight 7:0 word=null
+onDocumentHighlight 6:46 word="'s/"*$f"/"*$f.html"/g'"
+onDocumentHighlight 6:46 word="'s/"*$f"/"*$f.html"/g'"
+onDocumentSymbol
+onDocumentHighlight 6:45 word="'s/"*$f"/"*$f.html"/'"
+onDocumentHighlight 5:0 word=null
+onDocumentHighlight 6:51 word=null
+onDocumentHighlight 6:49 word=null
+onDocumentHighlight 6:47 word="{}"
+onDocumentHighlight 6:44 word="'s/"*$f"/"*$f.html"/'"
+onDocumentHighlight 6:41 word="'s/"*$f"/"*$f.html"/'"
+onDocumentHighlight 6:39 word="'s/"*$f"/"*$f.html"/'"
+onDocumentHighlight 6:37 word="'s/"*$f"/"*$f.html"/'"
+onDocumentHighlight 6:35 word="'s/"*$f"/"*$f.html"/'"
+onDocumentHighlight 6:33 word="'s/"*$f"/"*$f.html"/'"
+onDocumentHighlight 6:31 word="'s/"*$f"/"*$f.html"/'"
+onDocumentHighlight 6:27 word="'s/"*$f"/"*$f.html"/'"
+onDocumentHighlight 6:25 word="'s/"*$f"/"*$f.html"/'"
+onDocumentHighlight 6:21 word="rename"
+onDocumentHighlight 6:19 word="rename"
+onDocumentHighlight 6:17 word=null
+onDocumentHighlight 6:15 word=null
+onDocumentHighlight 6:14 word="f"
+onDocumentHighlight 6:13 word=null
+onDocumentHighlight 6:12 word="-type"
+onDocumentHighlight 6:11 word="-type"
+onDocumentHighlight 6:9 word="-type"
+onDocumentHighlight 6:8 word="-type"
+onDocumentHighlight 6:7 word=null
+onDocumentHighlight 6:5 word="./"
+onDocumentHighlight 6:4 word=null
+onDocumentHighlight 6:3 word="find"
+onDocumentHighlight 6:2 word="find"
+onDocumentHighlight 6:1 word="find"
+onDocumentHighlight 6:0 word="find"
+onDocumentHighlight 7:0 word=null
+onDocumentHighlight 5:0 word=null
+onDocumentHighlight 3:2 word=null
+onDocumentHighlight 1:16 word="-execdir"
+onDocumentHighlight 0:0 word="#!/bin/bash"
+onDocumentSymbol
+onDocumentHighlight 0:0 word=null
+onDocumentSymbol
+onDocumentHighlight 6:4 word=null
+onDocumentSymbol
+onDocumentHighlight 3:21 word=null
+onDocumentHighlight 3:21 word=null
+onDocumentHighlight 3:20 word="run_something"
+onDocumentHighlight 3:19 word="run_something"
+onDocumentHighlight 3:18 word="run_something"
+onDocumentHighlight 3:17 word="run_something"
+onDocumentHighlight 3:15 word="run_something"
+onDocumentHighlight 3:12 word="run_something"
+onDocumentHighlight 3:11 word="run_something"
+onDocumentHighlight 3:10 word="run_something"
+onDocumentHighlight 3:9 word="run_something"
+onDocumentHighlight 3:7 word=null
+onDocumentHighlight 3:6 word=null
+onDocumentHighlight 3:5 word=null
+onDocumentHighlight 3:6 word=null
+onDocumentHighlight 3:5 word=null
+onDocumentHighlight 3:4 word=null
+onHover 3:3 word=null
+onHover 3:3 word=null
+onHover 3:4 word=null
+onHover 0:1 word="for"
+onHover 0:3 word=null
+onHover 0:3 word=null
+onHover 0:3 word=null
+onDocumentSymbol
+onDocumentHighlight 3:4 word=null
+onDocumentHighlight 5:6 word=null
+onDocumentHighlight 5:6 word=null
+onDocumentHighlight 5:4 word="fi"

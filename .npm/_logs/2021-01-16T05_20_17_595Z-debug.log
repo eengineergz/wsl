@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/bryan/.nvm/versions/node/v12.14.1/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v12.14.1
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle learn-starter@0.1.0~predev: learn-starter@0.1.0
+6 info lifecycle learn-starter@0.1.0~dev: learn-starter@0.1.0
+7 verbose lifecycle learn-starter@0.1.0~dev: unsafe-perm in lifecycle true
+8 verbose lifecycle learn-starter@0.1.0~dev: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/mnt/c/MY-WEB-DEV/02-cloned-repos/_web_dev_tools/next-learn-starter-master/next-learn-starter-master/nextjs-blog/node_modules/.bin:/home/bryan/.local/bin:/home/bryan/gems/bin:/home/bryan/.nvm/versions/node/v12.14.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/tools/ruby27/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/tools/php80:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/ExifTool:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files (x86)/Brackets/command:/mnt/c/Users/bryan/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/bryan/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/bryan/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/bryan/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/bryan/AppData/Local/atom/bin:/mnt/c/Program Files/heroku/bin:/mnt/c/Program Files/Oracle/VirtualBox:/mnt/c/Users/bryan/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/bryan/.dotnet/tools:/mnt/c/Users/bryan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2020.3.2/bin:/mnt/c/Users/bryan/AppData/Local/Markdown Monster:/mnt/c/Users/bryan/AppData/Local/Yarn/bin:/mnt/c/Program Files (x86)/GitHub CLI/:/mnt/c/Users/bryan/AppData/Roaming/npm:/mnt/c/Users/bryan/AppData/Local/hyper/app-3.0.2/resources/bin
+9 verbose lifecycle learn-starter@0.1.0~dev: CWD: /mnt/c/MY-WEB-DEV/02-cloned-repos/_web_dev_tools/next-learn-starter-master/next-learn-starter-master/nextjs-blog
+10 silly lifecycle learn-starter@0.1.0~dev: Args: [ '-c', 'next dev' ]
+11 silly lifecycle learn-starter@0.1.0~dev: Returned: code: 1  signal: null
+12 info lifecycle learn-starter@0.1.0~dev: Failed to exec dev script
+13 verbose stack Error: learn-starter@0.1.0 dev: `next dev`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:223:5)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:223:5)
+13 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+14 verbose pkgid learn-starter@0.1.0
+15 verbose cwd /mnt/c/MY-WEB-DEV/02-cloned-repos/_web_dev_tools/next-learn-starter-master/next-learn-starter-master/nextjs-blog
+16 verbose Linux 4.19.128-microsoft-standard
+17 verbose argv "/home/bryan/.nvm/versions/node/v12.14.1/bin/node" "/usr/bin/npm" "run" "dev"
+18 verbose node v12.14.1
+19 verbose npm  v6.14.10
+20 error code ELIFECYCLE
+21 error errno 1
+22 error learn-starter@0.1.0 dev: `next dev`
+22 error Exit status 1
+23 error Failed at the learn-starter@0.1.0 dev script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

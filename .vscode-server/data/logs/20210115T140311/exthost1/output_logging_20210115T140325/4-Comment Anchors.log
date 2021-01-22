@@ -1,0 +1,2 @@
+[Comment Anchors] Using matcher /[^\w](ANCHOR|TODO|FIXME|STUB|NOTE|REVIEW|SECTION|LINK|!SECTION)(\[.*\])?(( +\- +|: +| +)(.*))?$/gm
+[Comment Anchors] Generated icon cache at /home/bryan/.vscode-server/data/User/globalStorage/exodiusstudios.comment-anchors/icons

@@ -1,0 +1,25 @@
+[2021-01-15 16:38:47.544] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-01-15 16:38:47.544] [remoteagent] [info] Extension host agent started.
+[2021-01-15 16:38:47.735] [remoteagent] [info] [::ffff:172.17.80.1][48da1761][ExtensionHostConnection] New connection established.
+[2021-01-15 16:38:47.739] [remoteagent] [info] [::ffff:172.17.80.1][b362c32c][ManagementConnection] New connection established.
+[2021-01-15 16:38:47.833] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-15 16:38:47.896] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/.vscode'
+[2021-01-15 16:38:50.968] [remoteagent] [info] [::ffff:172.17.80.1][48da1761][ExtensionHostConnection] <6628> Launched Extension Host Process.
+[2021-01-15 16:39:06.817] [remoteagent] [info] Installing extension: adpyke.codesnap
+[2021-01-15 16:39:08.410] [remoteagent] [info] Downloaded extension: adpyke.codesnap undefined
+[2021-01-15 16:39:24.028] [remoteagent] [info] Extracted extension to /home/bryan/.vscode-server/extensions/.adpyke.codesnap-1.2.1: adpyke.codesnap
+[2021-01-15 16:39:24.031] [remoteagent] [info] Renamed to /home/bryan/.vscode-server/extensions/adpyke.codesnap-1.2.1
+[2021-01-15 16:39:24.049] [remoteagent] [info] Installation completed. adpyke.codesnap
+[2021-01-15 16:39:24.092] [remoteagent] [info] Extensions installed successfully: adpyke.codesnap
+[2021-01-15 16:46:40.940] [remoteagent] [info] [::ffff:172.17.80.1][b362c32c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-15 16:46:42.285] [remoteagent] [info] [::ffff:172.17.80.1][48da1761][ExtensionHostConnection] <6628> Extension Host Process exited with code: 0, signal: null.
+[2021-01-15 16:46:42.286] [remoteagent] [info] Last EH closed, waiting before shutting down

@@ -1,0 +1,19 @@
+[2021-01-17 19:08:46.921] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-01-17 19:08:46.922] [remoteagent] [info] Extension host agent started.
+[2021-01-17 19:08:47.314] [remoteagent] [info] [::ffff:172.17.80.1][e091931c][ExtensionHostConnection] New connection established.
+[2021-01-17 19:08:47.675] [remoteagent] [info] [::ffff:172.17.80.1][f158c450][ManagementConnection] New connection established.
+[2021-01-17 19:08:47.825] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-17 19:08:48.794] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/MY-WEB-DEV/02-cloned-repos/.vscode'
+[2021-01-17 19:08:50.675] [remoteagent] [info] [::ffff:172.17.80.1][e091931c][ExtensionHostConnection] <2523> Launched Extension Host Process.
+[2021-01-17 19:08:51.903] [remoteagent] [info] Deleted from disk ecmel.vscode-html-css /home/bryan/.vscode-server/extensions/ecmel.vscode-html-css-1.8.1
+[2021-01-17 19:08:51.935] [remoteagent] [info] Deleted from disk tabnine.tabnine-vscode /home/bryan/.vscode-server/extensions/tabnine.tabnine-vscode-3.1.26
+[2021-01-17 19:09:40.713] [remoteagent] [info] [::ffff:172.17.80.1][f158c450][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

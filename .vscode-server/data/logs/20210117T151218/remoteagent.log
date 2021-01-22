@@ -1,0 +1,31 @@
+[2021-01-17 15:12:18.947] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-01-17 15:12:18.947] [remoteagent] [info] Extension host agent started.
+[2021-01-17 15:12:19.118] [remoteagent] [info] [::ffff:172.17.80.1][fef6a8bb][ExtensionHostConnection] New connection established.
+[2021-01-17 15:12:19.141] [remoteagent] [info] [::ffff:172.17.80.1][b5d744de][ManagementConnection] New connection established.
+[2021-01-17 15:12:19.176] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-17 15:12:19.222] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/bryan/keep-unsorted/.vscode'
+[2021-01-17 15:12:20.849] [remoteagent] [info] [::ffff:172.17.80.1][fef6a8bb][ExtensionHostConnection] <25381> Launched Extension Host Process.
+[2021-01-17 15:12:40.129] [remoteagent] [info] Installing extension: ecmel.vscode-html-css
+[2021-01-17 15:12:40.130] [remoteagent] [info] Installing extension: tabnine.tabnine-vscode
+[2021-01-17 15:12:40.965] [remoteagent] [info] Downloaded extension: ecmel.vscode-html-css undefined
+[2021-01-17 15:12:41.029] [remoteagent] [info] Extracted extension to /home/bryan/.vscode-server/extensions/.ecmel.vscode-html-css-1.9.1: ecmel.vscode-html-css
+[2021-01-17 15:12:41.030] [remoteagent] [info] Renamed to /home/bryan/.vscode-server/extensions/ecmel.vscode-html-css-1.9.1
+[2021-01-17 15:12:41.031] [remoteagent] [info] Installation completed. ecmel.vscode-html-css
+[2021-01-17 15:12:41.044] [remoteagent] [info] Extensions installed successfully: ecmel.vscode-html-css
+[2021-01-17 15:13:00.137] [remoteagent] [info] Downloaded extension: tabnine.tabnine-vscode undefined
+[2021-01-17 15:13:05.230] [remoteagent] [info] Extracted extension to /home/bryan/.vscode-server/extensions/.tabnine.tabnine-vscode-3.2.1: tabnine.tabnine-vscode
+[2021-01-17 15:13:05.231] [remoteagent] [info] Renamed to /home/bryan/.vscode-server/extensions/tabnine.tabnine-vscode-3.2.1
+[2021-01-17 15:13:05.234] [remoteagent] [info] Installation completed. tabnine.tabnine-vscode
+[2021-01-17 15:13:05.252] [remoteagent] [info] Extensions installed successfully: tabnine.tabnine-vscode
+[2021-01-17 15:48:58.006] [remoteagent] [info] [::ffff:172.17.80.1][b5d744de][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-17 15:48:59.323] [remoteagent] [info] [::ffff:172.17.80.1][fef6a8bb][ExtensionHostConnection] <25381> Extension Host Process exited with code: 0, signal: null.
+[2021-01-17 15:48:59.324] [remoteagent] [info] Last EH closed, waiting before shutting down

@@ -1,0 +1,160 @@
+{
+	"name": "node-tdd",
+	"displayName": "Node TDD",
+	"version": "0.2.4",
+	"description": "Ease test-driven development in Node and JavaScript",
+	"main": "./out/src/extension",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/prashaantt/node-tdd.git"
+	},
+	"bugs": {
+		"url": "https://github.com/prashaantt/node-tdd/issues"
+	},
+	"author": "Prashant Tiwari <prashaantt@gmail.com>",
+	"publisher": "prashaantt",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.8.0"
+	},
+	"icon": "images/emojione-rocket.png",
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"testing",
+		"node",
+		"javascript",
+		"typescript"
+	],
+	"dependencies": {
+		"lodash.debounce": "^4.0.8",
+		"tap-parser": "^6.0.1",
+		"tree-kill": "^1.2.0",
+		"tslib": "^1.8.0"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.43",
+		"@types/node": "^8.0.46",
+		"mocha": "^4.0.1",
+		"tslint": "^5.8.0",
+		"typescript": "^2.5.3",
+		"vscode": "^1.1.6"
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"lint": "tslint -c tslint.json  './{src,test}/**/*.ts'",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"activationEvents": [
+		"workspaceContains:package.json"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "nodeTdd.activate",
+				"title": "Node TDD: Activate"
+			},
+			{
+				"command": "nodeTdd.deactivate",
+				"title": "Node TDD: Deactivate"
+			},
+			{
+				"command": "nodeTdd.toggleOutput",
+				"title": "Node TDD: Toggle output"
+			},
+			{
+				"command": "nodeTdd.stopBuild",
+				"title": "Node TDD: Stop the current build"
+			}
+		],
+		"configuration": {
+			"title": "Node TDD configuration",
+			"properties": {
+				"nodeTdd.activateOnStartup": {
+					"description": "Activate TDD mode when workspace is opened",
+					"type": "boolean",
+					"default": true
+				},
+				"nodeTdd.testScript": {
+					"description": "The npm script to run tests",
+					"type": "string",
+					"default": "test"
+				},
+				"nodeTdd.glob": {
+					"description": "The glob pattern for files to watch, relative to the workspace root",
+					"type": "string",
+					"default": "{src,test}/**/*.{js,ts,jsx,tsx}"
+				},
+				"nodeTdd.reporter": {
+					"description": "The test reporter used",
+					"type": [
+						"string",
+						"null"
+					],
+					"default": null,
+					"enum": [
+						null,
+						"tap"
+					]
+				},
+				"nodeTdd.verbose": {
+					"description": "Show build status dialogs",
+					"type": [
+						"boolean",
+						"object"
+					],
+					"default": false,
+					"additionalProperties": false,
+					"properties": {
+						"onlyOnFailure": {
+							"type": "boolean"
+						}
+					}
+				},
+				"nodeTdd.minimal": {
+					"description": "Minimise status bar clutter",
+					"type": "boolean",
+					"default": false
+				},
+				"nodeTdd.buildOnActivation": {
+					"description": "Run tests when TDD mode is activated",
+					"type": "boolean",
+					"default": false
+				},
+				"nodeTdd.buildOnCreate": {
+					"description": "Run tests when matching files are created",
+					"type": "boolean",
+					"default": false
+				},
+				"nodeTdd.buildOnDelete": {
+					"description": "Run tests when matching files are deleted",
+					"type": "boolean",
+					"default": false
+				},
+				"nodeTdd.showCoverage": {
+					"description": "Show the average test coverage if reported (experimental)",
+					"type": "boolean",
+					"default": false
+				},
+				"nodeTdd.coverageThreshold": {
+					"description": "The coverage threshold percentage, used to colour-code the coverage",
+					"type": [
+						"number",
+						"null"
+					],
+					"default": null,
+					"minimum": 0,
+					"maximum": 100
+				}
+			}
+		}
+	},
+	"__metadata": {
+		"id": "150d948d-57be-4d27-992c-0b6a9f36cde6",
+		"publisherId": "974735d4-cc9b-4b7d-aca9-9d194b2f61c7",
+		"publisherDisplayName": "Prashant Tiwari"
+	}
+}

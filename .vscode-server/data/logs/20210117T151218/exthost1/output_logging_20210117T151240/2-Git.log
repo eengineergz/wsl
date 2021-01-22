@@ -1,0 +1,254 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/bryan
+> git fetch
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/kanban/boards
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/kanban/boards
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/scrum/artifacts
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/scrum/artifacts
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git fetch
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/scrum/artifacts
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/scrum/artifacts
+> git status -z -u
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/scrum/artifacts
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/scrum/artifacts
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/agile-at-scale.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html/scrum-at-scale
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/agile-at-scale.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html/scrum-at-scale
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git check-ignore -v -z --stdin
+> git fetch
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git fetch
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git fetch
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git config --get commit.template
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/about.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html/claire-drumond
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/about.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html.html/claire-drumond
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git check-ignore -v -z --stdin
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/manifesto.................................................
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/manifesto.................................................
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/articles.................................................
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/articles.................................................
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/articles.html
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/articles.html
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/devops.................................................
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/devops.................................................
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/devops.html
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/devops.html
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/manifesto.................................................
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/manifesto.................................................
+> git show --textconv :keep-unsorted/www.atlassian.com/agile/manifesto.html
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/agile/manifesto.html
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git fetch
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git fetch
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git status -z -u
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :keep-unsorted/www.atlassian.com/robots.txt
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/robots.txt
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git fetch
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git fetch
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git fetch
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git fetch
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/bryan/keep-unsorted/www.atlassian.com/make-html.sh
+> git show --textconv :keep-unsorted/www.atlassian.com/make-html.sh
+> git check-ignore -v -z --stdin

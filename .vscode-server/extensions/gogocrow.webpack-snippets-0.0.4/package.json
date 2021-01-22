@@ -1,0 +1,49 @@
+{
+	"name": "webpack-snippets",
+	"publisher": "gogocrow",
+	"displayName": "Webpack Snippets",
+	"version": "0.0.4",
+	"description": "Webpack Snippets",
+	"icon": "icon.png",
+	"scripts": {
+		"release": "standard-version",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"vscode": "^1.10.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LiShiSangZi/webpack-snippets"
+	},
+	"keywords": [
+		"webpack",
+		"vscode-extension",
+		"snippets"
+	],
+	"author": "gogocrow <jane19861227@hotmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/LiShiSangZi/webpack-snippets/issues"
+	},
+	"homepage": "https://github.com/LiShiSangZi/webpack-snippets#readme",
+	"dependencies": {
+		"standard-version": "^4.3.0"
+	},
+	"__metadata": {
+		"id": "0cc815d4-41d5-439c-bcbb-cb48c8d82060",
+		"publisherId": "62e34838-00e9-485e-b860-f309f5d8edf5",
+		"publisherDisplayName": "Qi JIANG"
+	}
+}

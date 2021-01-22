@@ -1,0 +1,20 @@
+[2021-01-16 01:30:24.700] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-01-16 01:30:24.700] [remoteagent] [info] Extension host agent started.
+[2021-01-16 01:30:25.393] [remoteagent] [info] [::ffff:172.17.80.1][81f313f9][ExtensionHostConnection] New connection established.
+[2021-01-16 01:30:25.399] [remoteagent] [info] [::ffff:172.17.80.1][54518e4b][ManagementConnection] New connection established.
+[2021-01-16 01:30:25.496] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-16 01:30:25.574] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/bryan/elasticsearch-7.10.2/.vscode'
+[2021-01-16 01:30:27.848] [remoteagent] [info] Deleted from disk adpyke.codesnap /home/bryan/.vscode-server/extensions/adpyke.codesnap-1.2.0
+[2021-01-16 01:30:28.492] [remoteagent] [info] [::ffff:172.17.80.1][81f313f9][ExtensionHostConnection] <17484> Launched Extension Host Process.
+[2021-01-16 01:59:12.634] [remoteagent] [info] [::ffff:172.17.80.1][54518e4b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-01-16 01:59:13.896] [remoteagent] [info] [::ffff:172.17.80.1][81f313f9][ExtensionHostConnection] <17484> Extension Host Process exited with code: 0, signal: null.
+[2021-01-16 01:59:13.897] [remoteagent] [info] Last EH closed, waiting before shutting down

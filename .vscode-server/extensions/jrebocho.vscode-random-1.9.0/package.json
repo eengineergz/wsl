@@ -1,0 +1,383 @@
+{
+	"name": "vscode-random",
+	"displayName": "vscode-random",
+	"description": "Generates random data directly into VS Code",
+	"icon": "images/vscode-random-icon.png",
+	"version": "1.9.0",
+	"publisher": "jrebocho",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jrebocho/vscode-random.git"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.resetSeed",
+		"onCommand:extension.randomByte",
+		"onCommand:extension.randomShort",
+		"onCommand:extension.randomInt",
+		"onCommand:extension.randomLong",
+		"onCommand:extension.randomIntCustomRange",
+		"onCommand:extension.randomGuid",
+		"onCommand:extension.randomLettersCustomLength",
+		"onCommand:extension.randomDigitsCustomLength",
+		"onCommand:extension.randomLowercaseLettersCustomLength",
+		"onCommand:extension.randomUppercaseLettersCustomLength",
+		"onCommand:extension.randomLettersDigitsCustomLength",
+		"onCommand:extension.randomLowercaseLettersDigitsCustomLength",
+		"onCommand:extension.randomUppercaseLettersDigitsCustomLength",
+		"onCommand:extension.randomSampleFromInput",
+		"onCommand:extension.randomName",
+		"onCommand:extension.randomStreetAddress",
+		"onCommand:extension.randomCity",
+		"onCommand:extension.randomCountryCode",
+		"onCommand:extension.randomCountryName",
+		"onCommand:extension.randomPhoneNumber",
+		"onCommand:extension.randomEmail",
+		"onCommand:extension.randomIP",
+		"onCommand:extension.randomIPv6",
+		"onCommand:extension.randomUrl",
+		"onCommand:extension.randomHexColor",
+		"onCommand:extension.randomRgbColor",
+		"onCommand:extension.randomIban",
+		"onCommand:extension.randomRegEx"
+	],
+	"main": "./build/extension",
+	"contributes": {
+		"configuration": {
+			"properties": {
+				"vscodeRandom.contextMenu.enabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enables the context menu for vscode-random"
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "extension.resetSeed",
+				"title": "Random: Reset seed"
+			},
+			{
+				"command": "extension.randomByte",
+				"title": "Random: Byte"
+			},
+			{
+				"command": "extension.randomShort",
+				"title": "Random: Short"
+			},
+			{
+				"command": "extension.randomInt",
+				"title": "Random: Integer"
+			},
+			{
+				"command": "extension.randomLong",
+				"title": "Random: Long"
+			},
+			{
+				"command": "extension.randomIntCustomRange",
+				"title": "Random: Integer (custom range)"
+			},
+			{
+				"command": "extension.randomGuid",
+				"title": "Random: Guid"
+			},
+			{
+				"command": "extension.randomLettersCustomLength",
+				"title": "Random: Letters (custom length)"
+			},
+			{
+				"command": "extension.randomDigitsCustomLength",
+				"title": "Random: Digits (custom length)"
+			},
+			{
+				"command": "extension.randomLettersDigitsCustomLength",
+				"title": "Random: Letters & Digits (custom length)"
+			},
+			{
+				"command": "extension.randomLowercaseLettersCustomLength",
+				"title": "Random: Lowercase Letters (custom length)"
+			},
+			{
+				"command": "extension.randomLowercaseLettersDigitsCustomLength",
+				"title": "Random: Lowercase Letters & Digits (custom length)"
+			},
+			{
+				"command": "extension.randomUppercaseLettersCustomLength",
+				"title": "Random: Uppercase Letters (custom length)"
+			},
+			{
+				"command": "extension.randomUppercaseLettersDigitsCustomLength",
+				"title": "Random: Uppercase Letters & Digits (custom length)"
+			},
+			{
+				"command": "extension.randomSampleFromInput",
+				"title": "Random: Sample (from input)"
+			},
+			{
+				"command": "extension.randomName",
+				"title": "Random: Name"
+			},
+			{
+				"command": "extension.randomStreetAddress",
+				"title": "Random: Street Address"
+			},
+			{
+				"command": "extension.randomCity",
+				"title": "Random: City"
+			},
+			{
+				"command": "extension.randomCountryCode",
+				"title": "Random: Country code"
+			},
+			{
+				"command": "extension.randomCountryName",
+				"title": "Random: Country name"
+			},
+			{
+				"command": "extension.randomPhoneNumber",
+				"title": "Random: Phone number"
+			},
+			{
+				"command": "extension.randomEmail",
+				"title": "Random: Email"
+			},
+			{
+				"command": "extension.randomIP",
+				"title": "Random: IP"
+			},
+			{
+				"command": "extension.randomIPv6",
+				"title": "Random: IPv6"
+			},
+			{
+				"command": "extension.randomUrl",
+				"title": "Random: Url"
+			},
+			{
+				"command": "extension.randomHexColor",
+				"title": "Random: Color (Hexadecimal)"
+			},
+			{
+				"command": "extension.randomRgbColor",
+				"title": "Random: Color (RGB)"
+			},
+			{
+				"command": "extension.randomIban",
+				"title": "Random: IBAN"
+			},
+			{
+				"command": "extension.randomRegEx",
+				"title": "Random: Regular Expression"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"submenu": "vscode-random",
+					"group": "navigation"
+				}
+			],
+			"vscode-random": [
+				{
+					"command": "extension.randomByte",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomShort",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomInt",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomLong",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomIntCustomRange",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomGuid",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomLettersCustomLength",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomDigitsCustomLength",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomLowercaseLettersCustomLength",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomUppercaseLettersCustomLength",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomLettersDigitsCustomLength",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomLowercaseLettersDigitsCustomLength",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomUppercaseLettersDigitsCustomLength",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomSampleFromInput",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomName",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomStreetAddress",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomCity",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomCountryCode",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomCountryName",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomPhoneNumber",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomEmail",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomIP",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomIPv6",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomUrl",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomHexColor",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomRgbColor",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomIban",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				},
+				{
+					"command": "extension.randomRegEx",
+					"when": "config.vscodeRandom.contextMenu.enabled",
+					"group": "vscode-random"
+				}
+			]
+		},
+		"submenus": [
+			{
+				"id": "vscode-random",
+				"label": "Random"
+			}
+		]
+	},
+	"scripts": {
+		"compile": "rimraf build & babel src --out-dir build",
+		"pretest": "eslint ./{src,tests,mocks}/**/*.js",
+		"test": "jest --ci",
+		"test:watch": "jest --watch",
+		"lint": "eslint ./{src,tests,mocks}/**/*.js --fix"
+	},
+	"jest": {
+		"testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.js?$"
+	},
+	"standard": {
+		"globals": [
+			"describe",
+			"it",
+			"expect",
+			"jest",
+			"beforeEach"
+		]
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.12.1",
+		"@babel/core": "^7.12.3",
+		"@babel/eslint-plugin": "^7.12.1",
+		"@babel/polyfill": "^7.12.1",
+		"@babel/preset-env": "^7.12.1",
+		"babel-core": "^7.0.0-bridge.0",
+		"babel-jest": "^26.6.3",
+		"eslint": "^7.13.0",
+		"eslint-config-prettier": "^6.15.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"jest": "^26.6.3",
+		"prettier": "2.1.2",
+		"rimraf": "^3.0.2",
+		"standard": "^16.0.2"
+	},
+	"dependencies": {
+		"chance": "^1.1.7",
+		"randexp": "^0.5.3"
+	},
+	"resolutions": {
+		"**/event-stream": "^4.0.1"
+	},
+	"__metadata": {
+		"id": "a4678ccd-2309-4cdd-b6cf-94af8dd7001f",
+		"publisherId": "4081ae01-a71e-4225-9b06-9dd59fe64e59",
+		"publisherDisplayName": "Jorge Rebocho"
+	}
+}

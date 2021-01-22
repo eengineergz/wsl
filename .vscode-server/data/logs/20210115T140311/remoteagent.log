@@ -1,0 +1,37 @@
+[2021-01-15 14:03:11.290] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-01-15 14:03:11.290] [remoteagent] [info] Extension host agent started.
+[2021-01-15 14:03:11.517] [remoteagent] [info] [::ffff:172.17.80.1][c90d4f13][ManagementConnection] New connection established.
+[2021-01-15 14:03:11.522] [remoteagent] [info] [::ffff:172.17.80.1][1da15709][ExtensionHostConnection] New connection established.
+[2021-01-15 14:03:11.564] [remoteagent] [info] Listing 0 persistent terminals, 0 total terminals
+[2021-01-15 14:03:11.671] [remoteagent] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/bryan/.vscode'
+[2021-01-15 14:03:12.616] [remoteagent] [info] [::ffff:172.17.80.1][1da15709][ExtensionHostConnection] <29368> Launched Extension Host Process.
+[2021-01-15 14:03:13.032] [remoteagent] [info] Deleted from disk ms-python.vscode-pylance /home/bryan/.vscode-server/extensions/ms-python.vscode-pylance-2021.1.0
+[2021-01-15 14:03:13.485] [remoteagent] [info] Deleted from disk wallabyjs.wallaby-vscode /home/bryan/.vscode-server/extensions/wallabyjs.wallaby-vscode-1.0.257
+[2021-01-15 14:03:26.539] [remoteagent] [info] Installing extension: ecmel.vscode-html-css
+[2021-01-15 14:03:26.540] [remoteagent] [info] Installing extension: remisa.shellman
+[2021-01-15 14:03:26.541] [remoteagent] [info] Installing extension: vscjava.vscode-java-dependency
+[2021-01-15 14:03:29.136] [remoteagent] [info] Downloaded extension: ecmel.vscode-html-css undefined
+[2021-01-15 14:03:29.223] [remoteagent] [info] Downloaded extension: vscjava.vscode-java-dependency undefined
+[2021-01-15 14:03:29.241] [remoteagent] [info] Downloaded extension: remisa.shellman undefined
+[2021-01-15 14:03:29.528] [remoteagent] [info] Extracted extension to /home/bryan/.vscode-server/extensions/.ecmel.vscode-html-css-1.8.1: ecmel.vscode-html-css
+[2021-01-15 14:03:29.529] [remoteagent] [info] Renamed to /home/bryan/.vscode-server/extensions/ecmel.vscode-html-css-1.8.1
+[2021-01-15 14:03:29.544] [remoteagent] [info] Installation completed. ecmel.vscode-html-css
+[2021-01-15 14:03:29.747] [remoteagent] [info] Extensions installed successfully: ecmel.vscode-html-css
+[2021-01-15 14:03:30.073] [remoteagent] [info] Extracted extension to /home/bryan/.vscode-server/extensions/.remisa.shellman-4.9.0: remisa.shellman
+[2021-01-15 14:03:30.085] [remoteagent] [info] Renamed to /home/bryan/.vscode-server/extensions/remisa.shellman-4.9.0
+[2021-01-15 14:03:30.098] [remoteagent] [info] Installation completed. remisa.shellman
+[2021-01-15 14:03:30.364] [remoteagent] [info] Extensions installed successfully: remisa.shellman
+[2021-01-15 14:03:30.517] [remoteagent] [info] Extracted extension to /home/bryan/.vscode-server/extensions/.vscjava.vscode-java-dependency-0.17.0: vscjava.vscode-java-dependency
+[2021-01-15 14:03:30.523] [remoteagent] [info] Renamed to /home/bryan/.vscode-server/extensions/vscjava.vscode-java-dependency-0.17.0
+[2021-01-15 14:03:30.571] [remoteagent] [info] Installation completed. vscjava.vscode-java-dependency
+[2021-01-15 14:03:30.717] [remoteagent] [info] Extensions installed successfully: vscjava.vscode-java-dependency
+[2021-01-15 14:03:42.101] [remoteagent] [info] [::ffff:172.17.80.1][c90d4f13][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/home/bryan/.nvm/versions/node/v12.14.1/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'ci',
+1 verbose cli   '-',
+1 verbose cli   'clean-install'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v12.14.1
+4 verbose config Skipping project config: /home/bryan/.npmrc. (matches userconfig)
+5 verbose npm-session 72ea23a34e074a8f
+6 info prepare initializing installer
+7 verbose prepare starting workers
+8 verbose prepare installation prefix: /home/bryan
+9 verbose teardown shutting down workers.
+10 info teardown Done in 0.001s
+11 verbose stack Error: ENOENT: no such file or directory, open '/home/bryan/package.json'
+12 verbose cwd /home/bryan
+13 verbose Linux 4.19.128-microsoft-standard
+14 verbose argv "/home/bryan/.nvm/versions/node/v12.14.1/bin/node" "/usr/bin/npm" "ci" "-" "clean-install"
+15 verbose node v12.14.1
+16 verbose npm  v6.14.10
+17 error code ENOENT
+18 error syscall open
+19 error path /home/bryan/package.json
+20 error errno -2
+21 error enoent ENOENT: no such file or directory, open '/home/bryan/package.json'
+22 error enoent This is related to npm not being able to find a file.
+23 verbose exit [ -2, true ]

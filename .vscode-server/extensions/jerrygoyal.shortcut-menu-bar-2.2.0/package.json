@@ -1,0 +1,613 @@
+{
+	"name": "shortcut-menu-bar",
+	"displayName": "Shortcut Menu Bar",
+	"description": "Add buttons like beautify,list files,undo,redo,save all, etc to editor menu bar in VSCode.",
+	"version": "2.2.0",
+	"publisher": "jerrygoyal",
+	"author": {
+		"name": "Gourav Goyal"
+	},
+	"engines": {
+		"vscode": "^1.52.0"
+	},
+	"license": "SEE license IN LICENSE file",
+	"icon": "images/menubar.png",
+	"galleryBanner": {
+		"color": "#752d00",
+		"theme": "dark"
+	},
+	"bugs": {
+		"url": "https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension/issues",
+		"email": "hey@gourav.io"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension.git"
+	},
+	"homepage": "https://github.com/GorvGoyl/Shortcut-Menu-Bar-VSCode-Extension",
+	"categories": [
+		"Programming Languages",
+		"Other",
+		"Visualization"
+	],
+	"keywords": [
+		"shortcut",
+		"toolbar",
+		"shortcuts",
+		"menu",
+		"menubar",
+		"tool",
+		"status",
+		"editor",
+		"bar",
+		"shortcut menu bar",
+		"button"
+	],
+	"activationEvents": [
+		"onCommand:ShortcutMenuBar.navigateBack",
+		"onCommand:ShortcutMenuBar.navigateForward",
+		"onCommand:ShortcutMenuBar.switchHeaderSource",
+		"onCommand:ShortcutMenuBar.save",
+		"onCommand:ShortcutMenuBar.beautify",
+		"onCommand:ShortcutMenuBar.toggleRenderWhitespace",
+		"onCommand:ShortcutMenuBar.openFilesList",
+		"onCommand:ShortcutMenuBar.toggleTerminal",
+		"onCommand:ShortcutMenuBar.toggleActivityBar",
+		"onCommand:ShortcutMenuBar.quickOpen",
+		"onCommand:ShortcutMenuBar.findReplace",
+		"onCommand:ShortcutMenuBar.undo",
+		"onCommand:ShortcutMenuBar.redo",
+		"onCommand:ShortcutMenuBar.commentLine",
+		"onCommand:ShortcutMenuBar.saveAll",
+		"onCommand:ShortcutMenuBar.formatWith",
+		"onCommand:ShortcutMenuBar.openFile",
+		"onCommand:ShortcutMenuBar.newFile",
+		"onCommand:ShortcutMenuBar.goToDefinition",
+		"onCommand:ShortcutMenuBar.cut",
+		"onCommand:ShortcutMenuBar.copy",
+		"onCommand:ShortcutMenuBar.paste",
+		"onCommand:ShortcutMenuBar.compareWithSaved",
+		"onCommand:ShortcutMenuBar.showCommands",
+		"onCommand:ShortcutMenuBar.startDebugging"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": [
+			{
+				"title": "Shortcut Menu Bar configuration",
+				"properties": {
+					"ShortcutMenuBar.save": {
+						"title": "Save active file",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Save file'"
+					},
+					"ShortcutMenuBar.navigateBack": {
+						"title": "Navigate back",
+						"type": "boolean",
+						"default": true,
+						"description": "show icon for 'Nagivate back'"
+					},
+					"ShortcutMenuBar.navigateForward": {
+						"title": "Navigate forward",
+						"type": "boolean",
+						"default": true,
+						"description": "show icon for 'Nagivate forward'"
+					},
+					"ShortcutMenuBar.switchHeaderSource": {
+						"title": "Switch header source",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Switch header/source'"
+					},
+					"ShortcutMenuBar.beautify": {
+						"title": "Beautify selection/file",
+						"type": "boolean",
+						"default": true,
+						"description": "show icon for 'Beautify/Format selection or file'"
+					},
+					"ShortcutMenuBar.toggleRenderWhitespace": {
+						"title": "Toggle render whitespace",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Toggle render whitespace'"
+					},
+					"ShortcutMenuBar.openFilesList": {
+						"title": "show opened files list",
+						"type": "boolean",
+						"default": true,
+						"description": "show icon for 'Opened files list'"
+					},
+					"ShortcutMenuBar.toggleTerminal": {
+						"title": "Toggle terminal",
+						"type": "boolean",
+						"default": true,
+						"description": "show icon for 'Toggle terminal'"
+					},
+					"ShortcutMenuBar.toggleActivityBar": {
+						"title": "Toggle activity bar",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Toggle activity bar'"
+					},
+					"ShortcutMenuBar.quickOpen": {
+						"title": "Quick open",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for Go to File, 'Quick Open'"
+					},
+					"ShortcutMenuBar.findReplace": {
+						"title": "Find replace",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Find/Replace in active file'"
+					},
+					"ShortcutMenuBar.undo": {
+						"title": "Undo",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Undo'"
+					},
+					"ShortcutMenuBar.redo": {
+						"title": "Redo",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Redo'"
+					},
+					"ShortcutMenuBar.commentLine": {
+						"title": "Toggle line comment",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Toggle line comment'"
+					},
+					"ShortcutMenuBar.saveAll": {
+						"title": "Save all",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Save all'"
+					},
+					"ShortcutMenuBar.formatWith": {
+						"title": "Format selection/file with",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Format selection/file with...'"
+					},
+					"ShortcutMenuBar.openFile": {
+						"title": "Open file",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Open File'"
+					},
+					"ShortcutMenuBar.newFile": {
+						"title": "New file",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'New File'"
+					},
+					"ShortcutMenuBar.goToDefinition": {
+						"title": "Go to definition",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Go to definition'"
+					},
+					"ShortcutMenuBar.cut": {
+						"title": "Cut",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Cut'"
+					},
+					"ShortcutMenuBar.copy": {
+						"title": "Copy",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Copy'"
+					},
+					"ShortcutMenuBar.paste": {
+						"title": "Paste",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Paste'"
+					},
+					"ShortcutMenuBar.compareWithSaved": {
+						"title": "Compare with saved",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Compare active file with saved'"
+					},
+					"ShortcutMenuBar.showCommands": {
+						"title": "Open command pallet",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Open command pallet / Show all commands'"
+					},
+					"ShortcutMenuBar.startDebugging": {
+						"title": "Start debugging",
+						"type": "boolean",
+						"default": false,
+						"description": "show icon for 'Start debugging'"
+					}
+				}
+			}
+		],
+		"commands": [
+			{
+				"command": "ShortcutMenuBar.navigateBack",
+				"title": "Navigate back",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/triangle-left_light.svg",
+					"dark": "images/triangle-left.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.navigateForward",
+				"title": "Navigate forward",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/triangle-right_light.svg",
+					"dark": "images/triangle-right.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.switchHeaderSource",
+				"title": "Switch Header/Source",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/switch_light.svg",
+					"dark": "images/switch.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.save",
+				"title": "Save",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/save_light.svg",
+					"dark": "images/save.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.beautify",
+				"title": "Beautify",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/format_light.svg",
+					"dark": "images/format.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.toggleRenderWhitespace",
+				"title": "Toggle render whitespace",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/whitespace_light.svg",
+					"dark": "images/whitespace.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.openFilesList",
+				"title": "Show opened files list",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/list_light.svg",
+					"dark": "images/list.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.toggleTerminal",
+				"title": "Toggle terminal",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/terminal_light.svg",
+					"dark": "images/terminal.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.toggleActivityBar",
+				"title": "Toggle activity bar",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/activitybar_light.svg",
+					"dark": "images/activitybar.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.quickOpen",
+				"title": "Quick open",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/files-search_light.svg",
+					"dark": "images/files-search.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.findReplace",
+				"title": "Find replace",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/find_light.svg",
+					"dark": "images/find.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.undo",
+				"title": "Undo",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/undo_light.svg",
+					"dark": "images/undo.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.redo",
+				"title": "Redo",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/redo_light.svg",
+					"dark": "images/redo.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.commentLine",
+				"title": "Toggle line comment",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/commentLine_light.svg",
+					"dark": "images/commentLine.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.saveAll",
+				"title": "Save all",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/saveAll_light.svg",
+					"dark": "images/saveAll.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.formatWith",
+				"title": "Format document with..",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/formatWith_light.svg",
+					"dark": "images/formatWith.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.openFile",
+				"title": "Open file",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/openFile_light.svg",
+					"dark": "images/openFile.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.newFile",
+				"title": "New file",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/newFile_light.svg",
+					"dark": "images/newFile.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.goToDefinition",
+				"title": "Go to definition",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/goToDefinition_light.svg",
+					"dark": "images/goToDefinition.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.cut",
+				"title": "Cut",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/cut_light.svg",
+					"dark": "images/cut.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.copy",
+				"title": "Copy",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/copy_light.svg",
+					"dark": "images/copy.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.paste",
+				"title": "Paste",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/paste_light.svg",
+					"dark": "images/paste.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.compareWithSaved",
+				"title": "Compare with saved",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/compareWithSaved_light.svg",
+					"dark": "images/compareWithSaved.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.showCommands",
+				"title": "Open command pallet",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/commands_light.svg",
+					"dark": "images/commands.svg"
+				}
+			},
+			{
+				"command": "ShortcutMenuBar.startDebugging",
+				"title": "Start debugging",
+				"category": "ShortcutMenuBar",
+				"icon": {
+					"light": "images/debug_light.svg",
+					"dark": "images/debug.svg"
+				}
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"when": "editorTextFocus && config.ShortcutMenuBar.switchHeaderSource",
+					"command": "ShortcutMenuBar.switchHeaderSource",
+					"group": "navigation@1"
+				},
+				{
+					"when": "config.ShortcutMenuBar.navigateBack",
+					"command": "ShortcutMenuBar.navigateBack",
+					"group": "navigation@2"
+				},
+				{
+					"when": "config.ShortcutMenuBar.navigateForward",
+					"command": "ShortcutMenuBar.navigateForward",
+					"group": "navigation@3"
+				},
+				{
+					"when": "!isInDiffEditor && !markdownPreviewFocus && config.ShortcutMenuBar.save",
+					"command": "ShortcutMenuBar.save",
+					"group": "navigation@4"
+				},
+				{
+					"when": "!isInDiffEditor && !markdownPreviewFocus && config.ShortcutMenuBar.beautify",
+					"command": "ShortcutMenuBar.beautify",
+					"group": "navigation@5"
+				},
+				{
+					"when": "config.ShortcutMenuBar.toggleRenderWhitespace",
+					"command": "ShortcutMenuBar.toggleRenderWhitespace",
+					"group": "navigation@6"
+				},
+				{
+					"when": "!isInDiffEditor && !markdownPreviewFocus && config.ShortcutMenuBar.openFilesList",
+					"command": "ShortcutMenuBar.openFilesList",
+					"group": "navigation@7"
+				},
+				{
+					"when": "config.ShortcutMenuBar.toggleTerminal",
+					"command": "ShortcutMenuBar.toggleTerminal",
+					"group": "navigation@8"
+				},
+				{
+					"when": "config.ShortcutMenuBar.toggleActivityBar",
+					"command": "ShortcutMenuBar.toggleActivityBar",
+					"group": "navigation@9"
+				},
+				{
+					"when": "config.ShortcutMenuBar.quickOpen",
+					"command": "ShortcutMenuBar.quickOpen",
+					"group": "navigation@10"
+				},
+				{
+					"when": "config.ShortcutMenuBar.findReplace",
+					"command": "ShortcutMenuBar.findReplace",
+					"group": "navigation@11"
+				},
+				{
+					"when": "textInputFocus && !editorReadonly && config.ShortcutMenuBar.undo",
+					"command": "ShortcutMenuBar.undo",
+					"group": "navigation@12"
+				},
+				{
+					"when": "textInputFocus && !editorReadonly && config.ShortcutMenuBar.redo",
+					"command": "ShortcutMenuBar.redo",
+					"group": "navigation@13"
+				},
+				{
+					"when": "editorTextFocus && !editorReadonly && config.ShortcutMenuBar.commentLine",
+					"command": "ShortcutMenuBar.commentLine",
+					"group": "navigation@14"
+				},
+				{
+					"when": "config.ShortcutMenuBar.saveAll",
+					"command": "ShortcutMenuBar.saveAll",
+					"group": "navigation@15"
+				},
+				{
+					"when": "!isInDiffEditor && !markdownPreviewFocus && config.ShortcutMenuBar.formatWith",
+					"command": "ShortcutMenuBar.formatWith",
+					"group": "navigation@16"
+				},
+				{
+					"when": "config.ShortcutMenuBar.openFile",
+					"command": "ShortcutMenuBar.openFile",
+					"group": "navigation@17"
+				},
+				{
+					"when": "config.ShortcutMenuBar.newFile",
+					"command": "ShortcutMenuBar.newFile",
+					"group": "navigation@18"
+				},
+				{
+					"when": "config.ShortcutMenuBar.goToDefinition && editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor",
+					"command": "ShortcutMenuBar.goToDefinition",
+					"group": "navigation@19"
+				},
+				{
+					"when": "config.ShortcutMenuBar.cut",
+					"command": "ShortcutMenuBar.cut",
+					"group": "navigation@20"
+				},
+				{
+					"when": "config.ShortcutMenuBar.copy",
+					"command": "ShortcutMenuBar.copy",
+					"group": "navigation@21"
+				},
+				{
+					"when": "config.ShortcutMenuBar.paste",
+					"command": "ShortcutMenuBar.paste",
+					"group": "navigation@22"
+				},
+				{
+					"when": "config.ShortcutMenuBar.compareWithSaved",
+					"command": "ShortcutMenuBar.compareWithSaved",
+					"group": "navigation@23"
+				},
+				{
+					"when": "config.ShortcutMenuBar.showCommands",
+					"command": "ShortcutMenuBar.showCommands",
+					"group": "navigation@24"
+				},
+				{
+					"when": "config.ShortcutMenuBar.startDebugging && debuggersAvailable && !inDebugMode",
+					"command": "ShortcutMenuBar.startDebugging",
+					"group": "navigation@25"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"lint": "eslint src --ext ts"
+	},
+	"devDependencies": {
+		"typescript": "^4.1.3",
+		"@types/vscode": "^1.52.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.15.0",
+		"@typescript-eslint/eslint-plugin": "^4.9.0",
+		"@typescript-eslint/parser": "^4.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"vscode-test": "^1.4.1"
+	},
+	"__metadata": {
+		"id": "53a82c7f-372e-4c3d-97a7-8f05f5566c31",
+		"publisherId": "b5fc3bc0-5246-4a5b-9adf-c5aa474995f4",
+		"publisherDisplayName": "GorvGoyl"
+	}
+}

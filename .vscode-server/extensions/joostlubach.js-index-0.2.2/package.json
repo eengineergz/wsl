@@ -1,0 +1,88 @@
+{
+	"name": "js-index",
+	"displayName": "JS Index",
+	"description": "Builds a JS/TS index out of files in the directory.",
+	"icon": "icon.png",
+	"version": "0.2.2",
+	"publisher": "joostlubach",
+	"author": {
+		"name": "Joost Lubach",
+		"publishername": "joostlubach"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/joostlubach/js-index.git"
+	},
+	"engines": {
+		"vscode": "^1.14.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:js-index.buildIndex"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "js-index.buildIndex",
+				"title": "Build index"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "js-index.buildIndex",
+				"key": "ctrl+k i",
+				"mac": "cmd+k i"
+			}
+		],
+		"configuration": {
+			"title": "js-index configuration",
+			"type": "object",
+			"properties": {
+				"js-index.defaultTemplate": {
+					"type": "string",
+					"default": "export {default as ${variable}} from ${relpath};",
+					"description": "The default template to use when exporting files"
+				},
+				"js-index.quotes": {
+					"type": "string",
+					"default": "double",
+					"enum": [
+						"single",
+						"double"
+					],
+					"description": "The quote style to use when quoting literals"
+				},
+				"js-index.alignmentMarker": {
+					"type": "string",
+					"default": "|",
+					"description": "The marker to use for alignment"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.110",
+		"@types/mocha": "^2.2.32",
+		"@types/node": "^6.0.40",
+		"mocha": "^2.3.3",
+		"typescript": "^2.0.3",
+		"vscode": "^1.0.0"
+	},
+	"dependencies": {
+		"lodash": "^4.17.10"
+	},
+	"__metadata": {
+		"id": "e753e042-1c13-4922-9a53-2264cd89fa29",
+		"publisherId": "e45ed53d-9c56-4f4a-a65e-e4d2eb4a4416",
+		"publisherDisplayName": "Joost Lubach"
+	}
+}
